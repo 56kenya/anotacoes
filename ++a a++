@@ -1,0 +1,30 @@
+considerando
+
+int a;
+int b;
+
+a = 1;
+b = ++a;
+
+++a = primeiro soma depois atribui, portanto:  a = 2   b = 1
+
+-----------------------------------------------
+
+contriariamente
+
+int a;
+int b;
+
+a = 1;
+b = a++;
+
+a++ = primeiro soma depois atribui, portanto:  a = 2   b = 2
+
+
+-----------------------------------
+
+exemplo pratico
+
+z = 27
+(z++): z = 28
+(++z): z = 27
